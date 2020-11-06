@@ -384,325 +384,325 @@ $GLOBALS['language'] = array (
 
         /*     App/View/Jobs     */
         'apply' => array (
-            'title'               => 'React on the invoice',
-            'content_1'           => 'Thank you for your interest in ' . Config::site['shortname'] . ' Hotel and for responding to the vacancy.',
-            'content_2'           => 'Try to answer the questionnaire as accurately as possible.',
-            'description'         => 'Job description',
-            'question_name'       => 'What\'s your name?',
-            'question_age'        => 'How old are you?',
-            'question_why'        => 'Why do you think you might be suitable?',
-            'question_time'       => 'How many hours are you online?',
-            'question_time_help'  => 'Tell us how many hours you spend online a day at ' . Config::site['shortname'] . ' Hotel.',
-            'monday'              => 'Monday',
-            'tuesday'             => 'Tuesday',
-            'wednesday'           => 'Wednesday',
-            'thursday'            => 'Thursday',
-            'friday'              => 'Friday',
-            'saturday'            => 'Saturday',
-            'sunday'              => 'Sunday',
-            'time_to_time'        => 'from X to Y hours',
-            'send'                => 'Send my application'
+            'title'               => 'Reaja na fatura',
+            'content_1'           => 'Obrigado pelo seu interesse em ' . Config::site['shortname'] . ' Hotel e por responder à vaga.',
+            'content_2'           => 'Tente responder ao questionário com a maior precisão possível.',
+            'description'         => 'Descrição do trabalho',
+            'question_name'       => 'Qual o seu nick?',
+            'question_age'        => 'Quantos anos você tem?',
+            'question_why'        => 'Por que você acha que pode ser adequado?',
+            'question_time'       => 'Quantas horas você está online?',
+            'question_time_help'  => 'Diga-nos quantas horas você passa online por dia em ' . Config::site['shortname'] . ' Hotel.',
+            'monday'              => 'Segunda-feira',
+            'tuesday'             => 'Terça-feira',
+            'wednesday'           => 'Quarta-feira',
+            'thursday'            => 'Quinta-feira',
+            'friday'              => 'Sexta-feira',
+            'saturday'            => 'Sábado',
+            'sunday'              => 'Domingo',
+            'time_to_time'        => 'de X a Y horas',
+            'send'                => 'Enviar minha inscrição'
         ),
         'jobs' => array (
-            'title'                   => 'List of vacancies',
-            'applications'            => 'My applications',
-            'available_applications'  => 'Available vacancies',
-            'buildteam'               => 'Buildteam',
-            'buildteam_desc'          => 'They are responsible for building (event/official) rooms.',
-            'react'                   => 'React'
+            'title'                   => 'Lista de vagas',
+            'applications'            => 'As minhas aplicações',
+            'available_applications'  => 'Vagas Disponíveis',
+            'buildteam'               => 'Construir Equipe',
+            'buildteam_desc'          => 'Eles são responsáveis pela construção de salas (eventos/oficiais).',
+            'react'                   => 'Reagir'
         ),
 
         /*     App/View/Password     */
         'password_claim' => array (
-            'title'                 => 'Forgot your password?',
-            'content_1'             => 'Enter your ' . Config::site['shortname'] . 'name and e-mail address below and we will send you a link by e-mail to change your password.',
-            'content_2'             => 'Don\'t do this if someone asks you to do this!',
-            'username'              =>  Config::site['shortname'] . 'name',
-            'email'                 => 'E-mail address',
-            'send'                  => 'Send e-mail',
-            'wrong_page'            => 'False alarm!',
-            'wrong_page_content_1'  => 'If you remember your password - or ended up here by accident - you can use the link below to return to the homepage.',
-            'back_to_home'          => 'Back to the homepage'
+            'title'                 => 'Esqueceu sua senha?',
+            'content_1'             => 'Insira o seu ' . Config::site['shortname'] . 'nome e endereço de e-mail abaixo e nós lhe enviaremos um link por e-mail para alterar sua senha.',
+            'content_2'             => 'Não faça isso se alguém pedir que você faça isso!',
+            'username'              => 'Nick',
+            'email'                 => 'Endereço de e-mail',
+            'send'                  => 'Enviar email',
+            'wrong_page'            => 'Alarme falso!',
+            'wrong_page_content_1'  => 'Se você se lembra da sua senha - ou acabou aqui por acidente - você pode usar o link abaixo para retornar à página inicial.',
+            'back_to_home'          => 'Voltar a página inicial'
         ),
         'password_reset' => array (
-            'title'                     => 'Change Password',
-            'new_password'              => 'New password',
-            'new_password_fill'         => 'Enter your new password...',
-            'new_password_repeat_fill'  => 'Please re-enter your password...',
-            'change_password'           => 'Change password'
+            'title'                     => 'Mudar senha',
+            'new_password'              => 'Nova senha',
+            'new_password_fill'         => 'Digite sua nova senha...',
+            'new_password_repeat_fill'  => 'Por favor, digite sua senha novamente...',
+            'change_password'           => 'Mudar senha'
         ),
 
         /*     App/View/Settings     */
         'settings_panel' => array (
-            'preferences'    => 'My preferences',
-            'password'       => 'Change password',
+            'preferences'    => 'Minhas preferências',
+            'password'       => 'Mudar senha',
             'verification'   => 'Set verification',
-            'email'          => 'Change e-mail address',
-            'namechange'     => 'Change ' . Config::site['shortname'] . 'name',
-            'shop_history'   => 'Purchase history'
+            'email'          => 'Mude o endereço de email',
+            'namechange'     => 'Trocar nick',
+            'shop_history'   => 'Histórico de compras'
         ),
         'settings_email' => array (
-            'title'           => 'Change e-mail',
-            'email_title'     => 'E-mail address',
-            'email_label'     => 'Your e-mail address is required to restore your account in case you lose access.',
-            'password_title'  => 'Current password',
-            'fill_password'   => 'Enter your current password...',
-            'save'            => 'Save'
+            'title'           => 'Mudar o e-mail',
+            'email_title'     => 'Endereço de e-mail',
+            'email_label'     => 'Seu endereço de e-mail é necessário para restaurar sua conta, caso você perca o acesso.',
+            'password_title'  => 'Senha atual',
+            'fill_password'   => 'Digite sua senha atual...',
+            'save'            => 'Salvar'
         ),
         'settings_namechange' => array (
-            'title'           => 'Change ' . Config::site['shortname'] . 'name',
-            'help_1'          => 'Do you want to change your ' . Config::site['shortname'] . 'name? Which can! This costs',
-            'help_2'          => 'and will be debited immediately after your request. Once your name has been changed we cannot reverse it! So make sure you think carefully about your decision!',
-            'fill_username'   =>  Config::site['shortname'] . 'name...',
-            'request'         => 'Request'
+            'title'           => 'Trocar nick',
+            'help_1'          => 'Você quer mudar o seu nick? Você pode! Isso gera custo',
+            'help_2'          => 'e será debitado imediatamente após sua solicitação. Uma vez que seu nome foi alterado, não podemos revertê-lo! Portanto, certifique-se de pensar cuidadosamente sobre sua decisão!',
+            'fill_username'   =>  Config::site['shortname'] . 'nick...',
+            'request'         => 'Solicitação'
         ),
         'settings_password' => array (
-            'title'                     => 'Change password',
-            'password_title'            => 'Current password',
-            'fill_password'             => 'Enter your current password...',
-            'newpassword_title'         => 'New password',
-            'fill_newpassword'          => 'Enter your new password here...',
-            'fill_newpassword_repeat'   => 'Repeat your new password...',
-            'help'                      => 'Your password must be at least 6 characters long and contain letters and numbers.',
-            'save'                      => 'Save'
+            'title'                     => 'Mudar senha',
+            'password_title'            => 'Senha atual',
+            'fill_password'             => 'Digite sua senha atual...',
+            'newpassword_title'         => 'Nova senha',
+            'fill_newpassword'          => 'Digite sua nova senha aqui...',
+            'fill_newpassword_repeat'   => 'Repita sua nova senha...',
+            'help'                      => 'Sua senha deve ter pelo menos 6 caracteres e conter letras e números.',
+            'save'                      => 'Salvar'
         ),
         'settings_preferences' => array (
-            'title'               => 'My preferences',
-            'follow_title'        => 'Follow function - who can follow you?' ,
-            'follow_label'        => 'I don\'t want ' . Config::site['shortname'] . '\'s to follow me',
-            'friends_title'       => 'Friend requests',
-            'friends_label'       => 'Allow friendship requests?',
-            'room_title'          => 'Room invites',
-            'room_label'          => 'I don\'t want to be invited to rooms',
-            'hotelalerts_title'   => 'Hotel alerts',
-            'hotelalerts_label'   => 'I don\'t want to receive hotel notifications',
-            'chat_title'          => 'Chat settings',
-            'chat_label'          => 'I want to use the old chat'
+            'title'               => 'Minhas preferências',
+            'follow_title'        => 'Função de seguimento - quem pode seguir você?' ,
+            'follow_label'        => 'Eu não quero que me sigam',
+            'friends_title'       => 'Pedidos de amizade',
+            'friends_label'       => 'Permitir pedidos de amizade?',
+            'room_title'          => 'Convites de quarto',
+            'room_label'          => 'Eu não quero ser convidado para quarto',
+            'hotelalerts_title'   => 'Alertas do hotel',
+            'hotelalerts_label'   => 'Não quero receber notificações de hotel',
+            'chat_title'          => 'Configurações de bate-papo',
+            'chat_label'          => 'Eu quero usar o chat antigo'
         ),
         'settings_verification' => array (
-            'title'                 => 'Secure your account',
-            'help'                  => 'This check increases the security of your account. When you log in, you must, depending on your preferences, answer the security questions you have defined or enter a code generated by your application.',
-            'password_title'        => 'Enter your password',
-            'auth_title'            => 'Two-step verification',
-            'auth_label'            => 'Secure your account with two-step verification',
-            'method_title'          => 'Verification method',
-            'method_choose'         => 'Choose your verification method...',
-            'method_pincode'        => 'I want to set a pin code',
-            'method_auth_app'       => 'I want to use Google 2FA',
-            'pincode_title'         => 'Pincode security',
-            'pincode_label'         => 'Put a pincode on your account as extra security, with this you ensure better protection of your account against hackers.',
-            'fill_pincode'          => 'Enter your pincode',
-            'generate_auth'         => 'Code generation by 2FA',
-            'generate_auth_label'   => 'This method is the most reliable. It links your ' . Config::site['shortname'] . ' account to an authentication application (Google Authenticator) on your phone. When you sign up, all you have to do is enter the code generated by your app.',
-            'link_account'          => 'Link your account',
-            'link_account_label'    => 'To link your account, simply scan this QR code with your application and then click save to validate this change.',
-            'save'                  => 'Save'
+            'title'                 => 'Proteja sua conta',
+            'help'                  => 'Esta verificação aumenta a segurança da sua conta. Ao fazer o login, você deve, dependendo de suas preferências, responder às questões de segurança que você definiu ou inserir um código gerado por seu aplicativo.',
+            'password_title'        => 'Coloque sua senha',
+            'auth_title'            => 'Verificação em duas etapas',
+            'auth_label'            => 'Proteja sua conta com a verificação em duas etapas',
+            'method_title'          => 'Método de verificação',
+            'method_choose'         => 'Escolha o seu método de verificação...',
+            'method_pincode'        => 'Eu quero definir um código PIN',
+            'method_auth_app'       => 'Eu quero usar o Google 2FA',
+            'pincode_title'         => 'Segurança Pincode',
+            'pincode_label'         => 'Coloque um código PIN em sua conta como segurança extra, com isso você garante uma melhor proteção de sua conta contra hackers.',
+            'fill_pincode'          => 'Digite seu código PIN',
+            'generate_auth'         => 'Geração de código por 2FA',
+            'generate_auth_label'   => 'Este método é o mais confiável. Ele liga seu ' . Config::site['shortname'] . ' conta para um aplicativo de autenticação (Google Authenticator) em seu telefone. Ao se inscrever, tudo que você precisa fazer é inserir o código gerado pelo seu aplicativo.',
+            'link_account'          => 'Vincule sua conta',
+            'link_account_label'    => 'Para vincular sua conta, basta escanear este código QR com seu aplicativo e clicar em salvar para validar esta alteração.',
+            'save'                  => 'Salvar'
         ),
 
         /*     App/View/Shop     */
         'shop_club' => array (
-            'club_benefits'       => 'Club benefits',
-            'club_buy'            => 'Purchase ' . Config::site['shortname'] . ' Club',
-            'unlimited'           => 'Unlimited',
-            'more_information'    => 'More information',
-            'content_1'           => 'Do you have a question or problem with a purchase?',
-            'content_2'           => 'Do not hesitate to contact customer service via the',
-            'help_tool'           =>  Config::site['shortname'] . ' Help Tool',
-            'random_club_users'   => 'Random ' . Config::site['shortname'] . ' Club members',
-            'desc'                => 'Here you can buy ' . Config::site['shortname'] . ' club for real money. With club you can buy exclusive items.'
+            'club_benefits'       => 'Vip',
+            'club_buy'            => 'Compre seu Vip ',
+            'unlimited'           => 'Ilimitado',
+            'more_information'    => 'Mais Informações',
+            'content_1'           => 'Você tem alguma dúvida ou problema com uma compra?',
+            'content_2'           => 'Não hesite em contactar o serviço de apoio ao cliente através da',
+            'help_tool'           => 'Ferramenta de Ajuda',
+            'random_club_users'   => 'Aleatório Membros do clube vip',
+            'desc'                => 'Aqui você pode comprar ' . Config::site['shortname'] . ' clube por dinheiro real. Com o clube você pode comprar itens exclusivos.'
         ),
         'shop_history' => array (
-            'buy_history'         => 'Purchase history',
-            'product'             => 'Product',
-            'date'                => 'Date',
-            'buy_history_empty'   => 'You do not have a purchase history yet.',
-            'buy_club'            => 'Purchase ' . Config::site['shortname'] . ' Club',
-            'content_1'           => 'Do you have a question or problem with a purchase?',
-            'content_2'           => 'Do not hesitate to contact customer service via the',
-            'help_tool'           =>  Config::site['shortname'] . ' Help Tool',
-            'title'               => 'My Purchase history',
-            'desc'                => 'You see here all the purchases you have made',
-            'title_draw'          => 'Draw your badge',
-            'draw_desc'           => 'Draw your own badge for points'
+            'buy_history'         => 'Histórico de compras',
+            'product'             => 'Produtos',
+            'date'                => 'Encontro',
+            'buy_history_empty'   => 'Você ainda não tem um histórico de compras.',
+            'buy_club'            => 'Compra ' . Config::site['shortname'] . ' Club',
+            'content_1'           => 'Você tem alguma dúvida ou problema com uma compra?',
+            'content_2'           => 'Não hesite em contactar o serviço de apoio ao cliente através do',
+            'help_tool'           => 'Ferramenta de Ajuda',
+            'title'               => 'Meu histórico de compras',
+            'desc'                => 'Você vê aqui todas as compras que você fez',
+            'title_draw'          => 'Desenhe seu emblema',
+            'draw_desc'           => 'Desenhe seu próprio emblema para ganhar pontos'
         ),
         'shop_offers' => array (
-            'back'              => 'Back',
-            'buymethods'        => 'Payment methods',
-            'for'               => 'for',
-            'or_lower'          => 'or lower',
-            'loading_methods'   => 'The payment methods are being loaded...',
-            'store'             => 'Store'
+            'back'              => 'Voltar',
+            'buymethods'        => 'Métodos de Pagamento',
+            'for'               => 'para',
+            'or_lower'          => 'ou inferior',
+            'loading_methods'   => 'Os métodos de pagamento estão sendo carregados...',
+            'store'             => 'Loja'
         ),
         'shop' => array (
-            'title'             => 'Select a product',
-            'country'           => 'Country:',
+            'title'             => 'Selecione um produto',
+            'country'           => 'País:',
             'netherlands'       => 'Netherlands',
             'belgium'           => 'Belgium',
-            'super_rare'        => 'Super rare',
-            'more_information'  => 'More information',
-            'content_1'         => 'Do you have a question or problem with a purchase?',
-            'content_2'         => 'Do not hesitate to contact customer service via the',
-            'help_tool'         =>  Config::site['shortname'] . ' Help Tool',
-            'not_logged'        => 'Oops! You\'re not logged in.',
-            'have_to_login'     => 'You must be logged in to visit the ' . Config::site['shortname'] . ' Shop.',
-            'click_here'        => 'Click here',
-            'to_login'          => 'to log in.',
-            'store'             => 'Store',
-            'desc'              => 'Here you can buy credits for real money, with this you can buy exclusive items in our catalogue'
+            'super_rare'        => 'Super raro',
+            'more_information'  => 'Mais Informações',
+            'content_1'         => 'Você tem alguma dúvida ou problema com uma compra?',
+            'content_2'         => 'Não hesite em contactar o serviço de apoio ao cliente através do',
+            'help_tool'         => 'Ferramenta de Ajuda',
+            'not_logged'        => 'Oops! Você não está logado.',
+            'have_to_login'     => 'Você deve estar logado para visitar a Loja',
+            'click_here'        => 'Clique aqui',
+            'to_login'          => 'Entrar.',
+            'store'             => 'Loja',
+            'desc'              => 'Aqui você pode comprar créditos com dinheiro real, com isso você pode comprar itens exclusivos em nosso catálogo'
         ),
         'games_ranking' => array(
-            'title'             => 'Highscores',
-            'desc'              => 'On this you find all the high scores of our players!'
+            'title'             => 'All da Fama',
+            'desc'              => 'Nele você encontra todas as pontuações mais altas de nossos jogadores!'
         )
     ),
     'core' => array (
         'belcredits' => 'GOTW-Points',
         'hotelapi' => array (
-            'disabled' => 'Cannot process request because the hotelapi is turned off!'
+            'disabled' => 'Não é possível processar a solicitação porque o hotelapi está desligado!'
         ),
         'dialog' => array (
-            'logged_in'             => 'Oops to visit this page you must be logged in!',
-            'not_logged_in'         => 'You do not have to be logged in to visit this page!'
+            'logged_in'             => 'Oops para visitar esta página você deve estar logado!',
+            'not_logged_in'         => 'Você não precisa estar logado para visitar esta página!'
         ),
         'notification' => array (
-            'message_placed'        => 'Your message has been posted!',
+            'message_placed'        => 'Sua mensagem foi postada!',
             'message_deleted'       => 'Your message has been deleted!',
-            'invisible'             => 'This is made invisible!',
-            'profile_invisible'     => 'This ' . Config::site['shortname'] . ' has made his/her profile invisible.',
-            'profile_notfound'      => 'Unfortunately.. we could not find the ' . Config::site['shortname'] . '!',
-            'no_permissions'        => 'You do not have permission.',
-            'already_liked'         => 'You already like this!',
-            'liked'                 => 'You like this!',
-            'banned_1'              => 'You have been banned for breaking the ' . Config::site['shortname'] . ' Rules:',
-            'banned_2'              => 'Your ban expires:',
-            'something_wrong'       => 'Something went wrong, please try again.',
-            'room_not_exists'       => 'This room does not exist!',
-            'staff_received'        => 'Thanks! The ' . Config::site['shortname'] . ' Staff has received this!',
-            'not_enough_belcredits' => 'You do not have enough gotwpoints.',
-            'not_enough_points'     => 'You do not have enough points.',
-            'topic_closed'          => 'You cannot respond to a topic that has been closed!',
-            'post_not_allowed'      => 'You don\'t have access to create a post in this forum!',
-            'draw_badge_uploaded'   => 'Your badge has been submitted and is ready for review!'
+            'invisible'             => 'Isso se tornou invisível!',
+            'profile_invisible'     => 'Este úsuario tornou seu perfil invisível.',
+            'profile_notfound'      => 'Infelizmente.. não conseguimos encontrar o úsuario!',
+            'no_permissions'        => 'Você não tem permissão.',
+            'already_liked'         => 'Você já gosta disso!',
+            'liked'                 => 'Você gosta disso!',
+            'banned_1'              => 'Você foi banido por quebrar as Regras do Hotel:',
+            'banned_2'              => 'Seu banimento expira:',
+            'something_wrong'       => 'Alguma coisa deu errado. Por favor tente outra vez.',
+            'room_not_exists'       => 'Esta quarto não existe!',
+            'staff_received'        => 'Obrigado! A ' . Config::site['shortname'] . ' A equipe recebeu isso!',
+            'not_enough_belcredits' => 'Você não tem pontos de controle suficientes.',
+            'not_enough_points'     => 'Você não tem pontos suficientes.',
+            'topic_closed'          => 'Você não pode responder a um tópico que foi fechado!',
+            'post_not_allowed'      => 'Você não tem acesso para criar uma postagem neste fórum!',
+            'draw_badge_uploaded'   => 'Seu emblema foi enviado e está pronto para revisão!'
         ),
         'pattern' => array (
-            'can_be'                => 'may maximum',
-            'must_be'               => 'must be minimal',
-            'characters_long'       => 'characters long.',
-            'invalid'               => 'does not meet the requirements!',
-            'invalid_characters'    => 'contains invalid characters!',
-            'is_required'           => 'Fill out all fields!',
-            'not_same'              => 'does not match',
-            'captcha'               => 'Recaptcha was entered incorrectly!',
-            'numeric'               => 'must be numeric!',
-            'email'                 => 'is not valid!'
+            'can_be'                => 'pode no máximo',
+            'must_be'               => 'deve ser mínimo',
+            'characters_long'       => 'caracteres longos.',
+            'invalid'               => 'não atende aos requisitos!',
+            'invalid_characters'    => 'Contém caracteres inválidos!',
+            'is_required'           => 'Preencha todos os campos!',
+            'not_same'              => 'não corresponde',
+            'captcha'               => 'O recaptcha foi inserido incorretamente!',
+            'numeric'               => 'deve ser numérico!',
+            'email'                 => 'não é válido!'
         ),
         'title' => array (
-            'home'              => 'Make friends, play games, make rooms and stand out!',
-            'lost'              => 'Page not found!',
-            'registration'      => 'Register for free!',
+            'home'              => 'Faça amigos, jogue, crie salas e se destaque!',
+            'lost'              => 'página não encontrada!',
+            'registration'      => 'Cadastre-se gratuitamente!',
             'hotel'             => 'Hotel',
 
             'password' => array (
-                'claim'    => 'Forgot password?',
-                'reset'    => 'Change password',
+                'claim'    => 'Esqueceu a senha?',
+                'reset'    => 'Mudar senha',
             ),
             'settings' => array (
-                'index'         => 'My preferences',
-                'password'      => 'Change password',
-                'email'         => 'Change e-mail',
-                'namechange'    => 'Change ' . Config::site['shortname'] . 'name'
+                'index'         => 'Minhas preferências',
+                'password'      => 'Mudar senha',
+                'email'         => 'Mude o e-mail',
+                'namechange'    => 'Trocar nick'
             ),
             'community' => array (
-                'index'     => 'Community',
-                'photos'    => 'Photo\'s',
-                'staff'     =>  Config::site['shortname'] . ' Staff',
-                'team'      =>  Config::site['shortname'] . ' Team',
+                'index'     => 'Comunidade',
+                'photos'    => 'Galeria',
+                'staff'     =>  'Equipe',
+                'team'      =>  'Colaboradores',
                 'fansites'  => 'Fansites',
-                'value'     => 'Catalogue Marketplace',
-                'forum'     => 'My Guilds'
+                'value'     => 'Catálogo do Mercado',
+                'forum'     => 'Minhas Guildas'
             ),
             'games' => array (
-                'ranking'   => 'Highscores'
+                'ranking'   => 'All da Fama'
             ),
             'shop' => array (
-                'index'     =>  Config::site['shortname'] . ' Store',
-                'history'   => 'Purchase history',
-                'club'      =>  Config::site['shortname'] . ' Club'
+                'index'     => 'Loja',
+                'history'   => 'Histórico de compras',
+                'club'      =>  'Vip'
             ),
             'help' => array (
-                'index'     => 'Help Tool',
-                'requests'  => 'Help Tickets',
-                'new'       => 'Open Help Ticket'
+                'index'     => 'Ferramenta de Ajuda',
+                'requests'  => 'Tíquetes de ajuda',
+                'new'       => 'Abra o tíquete de ajuda'
             ),
             'jobs' => array (
-                'index'     =>  Config::site['shortname'] . ' Vacancies',
-                'apply'     => 'Respond to vacancy'
+                'index'     => 'Vagas',
+                'apply'     => 'Responder à vaga'
             )
         )
     ),
     'login' => array (
-        'invalid_password'          => 'Invalid password.',
-        'invalid_pincode'           => 'This pin code does not match that of this ' . Config::site['shortname'] . '!',
-        'fill_in_pincode'           => 'Enter your pin code now to gain access to your account!'
+        'invalid_password'          => 'Senha inválida.',
+        'invalid_pincode'           => 'Este código PIN não corresponde ao deste ' . Config::site['shortname'] . '!',
+        'fill_in_pincode'           => 'Digite seu código PIN agora para obter acesso à sua conta!'
     ),
     'register' => array (
-        'username_invalid'          =>  Config::site['shortname'] . 'name is contrary to the ' . Config::site['shortname'] . ' Rules.',
-        'username_exists'           =>  Config::site['shortname'] . 'name is already in use :-(',
-        'email_exists'              =>  'This e-mail address is already in use :-(',
-        'too_many_accounts'         => 'There are too many accounts registered on this ip :-('
+        'username_invalid'          =>  Config::site['shortname'] . 'nome é contrário ao ' . Config::site['shortname'] . ' Rules.',
+        'username_exists'           =>  Config::site['shortname'] . 'nick já está em uso :-(',
+        'email_exists'              =>  'Este endereço de e-mail já está em uso :-(',
+        'too_many_accounts'         => 'Existem muitas contas registradas neste IP :-('
     ),
     'claim' => array (
-        'invalid_email'             => 'This e-mail address does not match that of this ' . Config::site['shortname'] . ' ID.',
-        'invalid_link'              => 'This link has expired. Request your password again to change your password.',
-        'send_link'                 => 'We have just sent you an e-mail! Received nothing? Then check the junk e-mail folder.',
-        'password_changed'          => 'Your password has been changed. You can now log in again!',
+        'invalid_email'             => 'Este endereço de e-mail não corresponde ao deste ' . Config::site['shortname'] . ' ID.',
+        'invalid_link'              => 'Este link expirou. Solicite sua senha novamente para alterar sua senha.',
+        'send_link'                 => 'Acabamos de enviar um e-mail para você! Não recebeu nada? Em seguida, verifique a pasta de lixo eletrônico.',
+        'password_changed'          => 'Sua senha foi mudada. Agora você pode entrar novamente!',
 
         'email'  => array (
-            'title'                 => 'Change your password.'
+            'title'                 => 'Mude sua senha.'
         )
     ),
     'settings' => array (
-        'email_saved'               => 'Your e-mail address has been changed.',
-        'pincode_saved'             => 'Your pin code has been saved, you will have to log in again. See you soon! :)',
-        'password_saved'            => 'Your password has been changed. You will now have to log in again. See you soon! :)',
-        'preferences_saved'         => 'Your preferences have been saved!',
-        'current_password_invalid'  => 'Current password does not match that of your ' . Config::site['shortname'] . ' ID.',
-        'choose_new_username'       => 'Enter a new ' . Config::site['shortname'] . 'name.',
-        'choose_new_pincode'        => 'Enter a new pin code.',
-        'user_is_active'            => 'This ' . Config::site['shortname'] . ' may still be active!',
-        'user_not_exists'           => 'This ' . Config::site['shortname'] . 'name is available and does not exist yet!',
-        'name_change_saved'         => 'Your application will be processed, 50 gotw-points have been debited.',
-        'invalid_secretcode'        => 'Google Authentication secret code is incorrect.',
-        'enabled_secretcode'        => 'Authentication method set! You will have to log in again... see you soon!',
-        'disabled_secretcode'       => 'Authentication method disabled!'
+        'email_saved'               => 'Seu endereço de e-mail foi alterado.',
+        'pincode_saved'             => 'Seu código PIN foi salvo, você terá que fazer o login novamente. Te vejo em breve! :)',
+        'password_saved'            => 'Sua senha foi mudada. Agora você terá que fazer login novamente. Te vejo em breve! :)',
+        'preferences_saved'         => 'Suas preferências foram salvas!',
+        'current_password_invalid'  => 'A senha atual não corresponde à sua ' . Config::site['shortname'] . ' ID.',
+        'choose_new_username'       => 'Insira um novo ' . Config::site['shortname'] . 'nick.',
+        'choose_new_pincode'        => 'Insira um novo código PIN.',
+        'user_is_active'            => 'Isto ' . Config::site['shortname'] . ' pode ainda estar ativo!',
+        'user_not_exists'           => 'Isto ' . Config::site['shortname'] . 'o nome está disponível e ainda não existe!',
+        'name_change_saved'         => 'Sua inscrição será processada, 50 gotw-points foram debitados.',
+        'invalid_secretcode'        => 'O código secreto do Google Authenticator está incorreto.',
+        'enabled_secretcode'        => 'Método de autenticação definido! Você terá que fazer o login novamente... até breve!',
+        'disabled_secretcode'       => 'Método de autenticação desativado!'
     ),
     'shop' => array (
         'offers' => array (
-            'invalid_transaction'   => 'Transaction could not be processed!',
-            'invalid_code'          => 'The code you entered is incorrect.',
-            'success_1'             => 'Thank you for your purchase! You have received',
+            'invalid_transaction'   => 'A transação não pôde ser processada!',
+            'invalid_code'          => 'O código que você digitou está incorreto.',
+            'success_1'             => 'Obrigado por sua compra! Você recebeu',
             'success_2'             => 'gotw-points.'
         ),
         'club' => array (
-            'already_vip'           => 'You are an unlimited member of the ' . Config::site['shortname'] . ' Club.',
-            'purchase_success'      => 'Yeah! You are now a member of the ' . Config::site['shortname'] . ' Club for 31 days.'
+            'already_vip'           => 'Você é um membro ilimitado do ' . Config::site['shortname'] . ' Club Vip.',
+            'purchase_success'      => 'Yeah! Você agora é um membro do ' . Config::site['shortname'] . ' Club Vip por 31 dias.'
 
         ),
         'marketplace' => array(
-            'expired'               => 'Item is expired, its not possible to purchase this item!',
-            'purchased'             => 'Item is succesfull purchased and is now added to your inventory',
-            'regards'               => 'Your item has been arrived! Friendly regards from ' . Config::site['shortname']
+            'expired'               => 'O item expirou, não é possível comprar este item!',
+            'purchased'             => 'O item foi comprado com sucesso e agora é adicionado ao seu inventário',
+            'regards'               => 'Seu item foi entregue! Saudações amigáveis de ' . Config::site['shortname']
         )
     ),
     'help' => array (
-        'ticket_created'            => 'Your Help Ticket has been created. View your Help Tickets to view the help request.',
-        'ticket_received'           => 'An ' . Config::site['shortname'] . ' Staff has responded to your Help Tool ticket. Visit the Help Tool to view the response.',
-        'already_open'              => 'You still have an outstanding ticket! When this has been treated you can create a ticket again.',
-        'no_answer_yet'             => 'You can only respond once an ' . Config::site['shortname'] . ' Staff has answered your ticket.',
+        'ticket_created'            => 'Seu tíquete de ajuda foi criado. Veja seus tíquetes de ajuda para ver o pedido de ajuda.',
+        'ticket_received'           => 'A equipe respondeu ao seu tíquete de ferramenta de ajuda. Visite a Ferramenta de Ajuda para ver a resposta.',
+        'already_open'              => 'Você ainda tem um ingresso excelente! Quando isso for tratado, você pode criar um tíquete novamente.',
+        'no_answer_yet'             => 'Você só pode responder quando um Staff responder ao seu tíquete.',
     ),
     'forum' => array (
-        'is_sticky'                 => 'Sticky updated!',
-        'is_closed'                 => 'Topic status changed!'
+        'is_sticky'                 => 'Sticky atualizado!',
+        'is_closed'                 => 'Status do tópico alterado!'
     ),
 
     /*     Housekeeping     */
@@ -711,7 +711,7 @@ $GLOBALS['language'] = array (
             'dashboard_header_title'    => 'Dashboard'
         ),
         'javascript' => array(
-            'dashboard_table_username'  => 'Username'
+            'dashboard_table_username'  => 'Nome do usuário'
         )
     )
 );
