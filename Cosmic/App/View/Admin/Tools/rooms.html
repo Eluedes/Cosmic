@@ -10,7 +10,7 @@
             <div class="kt-portlet__head">
                 <div class="kt-portlet__head-label">
                     <h3 class="kt-portlet__head-title">
-                    Search Rooms
+                    Pesquisar quartos
                     </h3>
                 </div>
             </div>
@@ -36,7 +36,7 @@
               <i class="kt-font-brand flaticon2-user"></i>
               </span>
               <h3 class="kt-portlet__head-title">
-                 Popular Rooms
+                 Quartos Populares
               </h3>
            </div>
            <div class="kt-portlet__head-toolbar">
@@ -72,51 +72,51 @@
          <div class="kt-portlet__head">
             <div class="kt-portlet__head-label">
                <h3 class="kt-portlet__head-title">
-                 Room Info
+                 Informações do quarto
                </h3>
             </div>
             <div style="float: right; margin-top: 10px;">
-              <button type="button" class="btn btn-secondary goBack"><i class="fa fa-undo"></i> Back</button>
+              <button type="button" class="btn btn-secondary goBack"><i class="fa fa-undo"></i> Voltar</button>
             </div>
          </div>
 
          <form class="kt-form" id="updateRoom" method="get">
             <div class="kt-portlet__body">
                <div class="form-group row">
-                  <label class="col-3 col-form-label">Room Name</label>
+                  <label class="col-3 col-form-label">Nome do Quarto</label>
                   <div class="col-9">
                      <input type="text" class="form-control" name="roomName">
                   </div>
                </div>
 
                <div class="form-group row">
-                  <label class="col-3 col-form-label">Room Description</label>
+                  <label class="col-3 col-form-label">Descrição do Quarto</label>
                   <div class="col-9">
                      <input type="text" class="form-control" name="roomDesc">
                   </div>
                </div>
 
                <div class="form-group row">
-                  <label class="col-3 col-form-label">Owner</label>
+                  <label class="col-3 col-form-label">Dono</label>
                   <div class="col-9">
                      <input type="text" class="form-control" name="roomOwner" disabled>
                   </div>
                </div>
 
                <div class="form-group row">
-                  <label class="col-3 col-form-label">Access type</label>
+                  <label class="col-3 col-form-label">Tipo de acesso</label>
                   <div class="col-9">
                        <select class="form-control" name="accessType" required>
-                          <option value="open">Open</option>
-                          <option value="locked">Locked</option>
-                          <option value="password">Password</option>
-                          <option value="invisible">Invisible</option>
+                          <option value="open">Aberto</option>
+                          <option value="locked">Bloqueado</option>
+                          <option value="password">Senha</option>
+                          <option value="invisible">Invisível</option>
                       </select>
                   </div>
                </div>
 
                <div class="form-group row">
-                  <label class="col-3 col-form-label">Max users</label>
+                  <label class="col-3 col-form-label">Usuários máximos</label>
                   <div class="col-9">
                       <input class="form-control" type="number" name="maxUsers" required>
                   </div>
@@ -128,7 +128,7 @@
                   <div class="row">
                      <div class="col-3">
                         <input type="hidden" name="roomId">
-                        <button type="submit" class="btn btn-primary updateRoom">Save</button>
+                        <button type="submit" class="btn btn-primary updateRoom">Salvar</button>
                      </div>
                   </div>
                </div>
@@ -146,7 +146,7 @@
               <i class="kt-font-brand flaticon2-user"></i>
               </span>
               <h3 class="kt-portlet__head-title">
-                 Room Bans
+                 Proibições do quarto
               </h3>
            </div>
            <div class="kt-portlet__head-toolbar">

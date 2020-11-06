@@ -1,6 +1,6 @@
 {% extends "permissions.html" %}{% set set_permission = 'homepage' %}{% block base %}{% if load is not defined %}
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -195,14 +195,14 @@
                     <li class="navigation-subitem"><a href="/articles">{{locale_base.nav_news}}</a></li>
                     <li class="navigation-subitem"><a href="/jobs">{{locale_base.nav_jobs}}</a></li>
                     <li class="navigation-subitem"><a href="/community/photos">{{locale_base.nav_photos}}</a></li>
-                    <li class="navigation-subitem"><a href="/community/staff">{{site.shortname}} {{locale_base.nav_staff}}</a></li>
-                    <li class="navigation-subitem"><a href="/community/team">{{site.shortname}} {{locale_base.nav_team}}</a></li>
+                    <li class="navigation-subitem"><a href="/community/staff">{{locale_base.nav_staff}}</a></li>
+                    <li class="navigation-subitem"><a href="/community/team">{{locale_base.nav_team}}</a></li>
                 </ul>
             </li>
 
             {% if player %}
             <li class="navigation-item has-items {% if "shop" in page %}selected {% endif %}" data-category="shop">
-                <a href="/shop">{{site.shortname}} {{locale_base.nav_shop}}</a>
+                <a href="/shop">{{locale_base.nav_shop}}</a>
                 <ul class="navigation-submenu">
                     <li class="navigation-subitem"><a href="/shop">{{locale_base.nav_buy_points}}</a></li>
                     <li class="navigation-subitem"><a href="/shop/club">{{locale_base.nav_buy_club}}</a></li>

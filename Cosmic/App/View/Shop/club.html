@@ -3,7 +3,7 @@
 {% block body %}
 <header class="page-header flex-container flex-vertical-center">
     <div class="page-header-content">
-        <h1>{{site.shortname}} Club</h1>
+        <h1>Club Vip</h1>
         {{locale.desc}}
     </div>
 </header>
@@ -11,12 +11,12 @@
 <div class="page-content">
     <div class="left-side">
         <article class="default-section">
-            <div class="aside-title-content">{{site.shortname}} {{locale.club_benefits}}</div>
+            <div class="aside-title-content">Club {{locale.club_benefits}}</div>
             <div class="aside-content">
                 
                 {{content|raw}}
               
-                <h4>Badges</h4>
+                <h4>Emblemas</h4>
                 {% for badges in data.vip_badges %}
                     <img src="{{site.cpath}}/c_images/album1584/{{badges|trim('value')}}.gif">
                 {% endfor %}
@@ -40,7 +40,7 @@
                 <form action="shop/club/buy">
                     <input type="hidden" name="csrftoken" value="{{csrf_token}}">
                     <center><button class="rounded-button blue">
-                      {% if data.vip_membership_days == "lifetime" %}{{locale.unlimited}}{% else %}{{data.vip_membership_days}} DAYS {% endif %} ({{data.vip_price}} {{data.vip_type}})
+                      {% if data.vip_membership_days == "lifetime" %}{{locale.unlimited}}{% else %}{{data.vip_membership_days}} DIAS {% endif %} ({{data.vip_price}} {{data.vip_type}})
                     </button></center>
                 </form>
             </div>

@@ -3,7 +3,7 @@
 {% block body %}
         <header class="page-header flex-container flex-vertical-center">
             <div class="page-header-content">
-                <h1>{{site.shortname}} {% if action == "team" %}Teams{% else %}Staff{% endif %}</h1>
+                <h1>{% if action == "team" %}Colaboradores{% else %}Equipe{% endif %}</h1>
                 {{locale.desc}}
             </div>
         </header>

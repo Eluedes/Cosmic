@@ -8,148 +8,148 @@
             <div class="kt-portlet__head">
                 <div class="kt-portlet__head-label">
                     <h3 class="kt-portlet__head-title">
-                  Edit item page
+                  Editar página de item
                </h3>
                 </div>
                 <div class="kt-subheader__wrapper kt-margin-t-10">
                     <a id="#" class="btn btn-clean btn-icon-sm goBackWizard" style="">
-                        <i class="la la-long-arrow-left"></i>Back
+                        <i class="la la-long-arrow-left"></i>Voltar
                     </a>
                 </div>
             </div>
             <form class="kt-form" id="itemForm" method="post" action="catalog/addItem">
                 <div class="kt-portlet__body">
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Sprite ID</label>
+                        <label for="example-text-input" class="col-3 col-form-label">ID da Sprite</label>
                         <div class="col-9">
                             <input type="text" name="sprite_id" class="form-control">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Item Name</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Nome do item</label>
                         <div class="col-9">
                             <input type="text" name="item_name" class="form-control" required>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Public Name</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Nome Público</label>
                         <div class="col-9">
                             <textarea name="public_name" class="form-control" id="text-input"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Width</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Largura</label>
                         <div class="col-lg-2">
                             <input type="number" class="form-control" name="width">
                         </div>
-                        <label for="example-text-input" class="col-1 col-form-label">Length</label>
+                        <label for="example-text-input" class="col-1 col-form-label">Comprimento</label>
                         <div class="col-lg-2">
                             <input type="number" class="form-control" name="length">
                         </div>
-                        <label for="example-text-input" class="col-1 col-form-label">Height</label>
+                        <label for="example-text-input" class="col-1 col-form-label">Altura</label>
                         <div class="col-lg-2">
                             <input type="number" class="form-control" name="stack_height">
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Page</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Página</label>
                         <div class="col-9">
                             <select name="page_id" id="selectPage" class="form-control" required></select>
                         </div>
                     </div>
                   <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow stack</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir pilha</label>
                         <div class="col-9">
                             <select name="allow_stack" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow sit</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir sentar</label>
                         <div class="col-9">
                             <select name="allow_sit" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow lay</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir postura</label>
                         <div class="col-9">
                             <select name="allow_lay" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow walk</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir caminhada</label>
                         <div class="col-9">
                             <select name="allow_walk" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow Gift</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir presente</label>
                         <div class="col-9">
                             <select name="allow_gift" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>
                   <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow trade</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir comércio</label>
                         <div class="col-9">
                             <select name="allow_trade" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow recylce</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir comércio</label>
                         <div class="col-9">
                             <select name="allow_recycle" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow Marketplace Sell</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir venda no mercado</label>
                         <div class="col-9">
                             <select name="allow_marketplace_sell" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Allow Incentory Stack</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Permitir pilha de estoque</label>
                         <div class="col-9">
                             <select name="allow_inventory_stack" class="form-control">
-                                <option value="0">No</option>
-                                <option value="1">Yes</option>
+                                <option value="0">Não</option>
+                                <option value="1">Sim</option>
                             </select>
                         </div>
                     </div>         
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Item Type</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Tipo de item</label>
                         <div class="col-9">
                             <select name="type" class="form-control">
-                                <option value="s">Floor</option>
-                                <option value="i">Wall</option>
+                                <option value="s">Chão</option>
+                                <option value="i">Parede</option>
                                 <option value="r">Bot</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Interaction type</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Tipo de interação</label>
                         <div class="col-9">
                             <select name="interaction_type" id="selectPage" class="form-control" required>
                                 <option value="adjustable_height">adjustable_height</option>
@@ -191,7 +191,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Interaction Count</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Contagem de interação</label>
                         <div class="col-9">
                             <input type="text" name="interaction_modes_count" class="form-control">
                         </div>
@@ -201,7 +201,7 @@
 
                     <div class="kt-portlet__body">
                         <div class="form-group row">
-                            <label for="example-text-input" class="col-3 col-form-label">Catalog name</label>
+                            <label for="example-text-input" class="col-3 col-form-label">Nome do catálogo</label>
                             <div class="col-9">
                                 <input type="text" name="catalog_name" class="form-control">
                             </div>
@@ -209,30 +209,30 @@
                         <div class="form-group row">
                             <label for="example-text-input" class="col-3 col-form-label"></label>
                             <div class="col-lg-2">
-                                <label>Credits</label>
+                                <label>Créditos</label>
                                 <input type="number" class="form-control" name="cost_credits">
                             </div>
                             <div class="col-lg-2">
-                                <label class="">Cost Points</label>
+                                <label class="">Pontos de Custo</label>
                                 <input type="number" class="form-control" name="cost_points">
                             </div>
                             <div class="col-lg-2">
-                                <label class="">Point type</label>
+                                <label class="">Tipo de ponto</label>
                                 <input type="number" class="form-control" name="points_type">
                             </div>
                             <div class="col-lg-2">
-                                <label class="">Amount</label>
+                                <label class="">Quantias</label>
                                 <input type="number" class="form-control" name="amount">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label for="example-text-input" class="col-3 col-form-label"></label>
                             <div class="col-lg-2">
-                                <label>Limited sells</label>
+                                <label>Vendas limitadas</label>
                                 <input type="number" class="form-control" name="limited_sells">
                             </div>
                             <div class="col-lg-2">
-                                <label class="">Limit stacks</label>
+                                <label class="">Limite de pilhas</label>
                                 <input type="number" class="form-control" name="limited_stack">
                             </div>
                         </div>
@@ -246,7 +246,7 @@
                             <div class="col-3">
                                 <input type="hidden" name="object">
                                 <input type="hidden" name="furniture_id">
-                                <button type="submit" class="btn btn-primary ajaxLoad" name="additem">Edit item</button>
+                                <button type="submit" class="btn btn-primary ajaxLoad" name="additem">Editar item</button>
                             </div>
                         </div>
                     </div>
@@ -260,43 +260,43 @@
             <div class="kt-portlet__head">
                 <div class="kt-portlet__head-label">
                     <h3 class="kt-portlet__head-title">
-                  Edit catalog page
+                  Editar página do catálogo
                </h3>
                 </div>
                 <div class="kt-subheader__wrapper kt-margin-t-10">
                     <a id="#" class="btn btn-clean btn-icon-sm goBackWizard" style="">
-                        <i class="la la-long-arrow-left"></i>Back
+                        <i class="la la-long-arrow-left"></i>Voltar
                     </a>
                 </div>
             </div>
             <form class="kt-form" id="catalogForm" method="post" action="catalog/request">
                 <div class="kt-portlet__body">
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Page Name</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Nome da página</label>
                         <div class="col-9">
                             <input type="text" name="caption" class="form-control" required>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Page Teaser</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Teaser da página</label>
                         <div class="col-9">
                             <textarea name="page_teaser" class="form-control" id="text-input"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Page Header</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Cabeçalho da página</label>
                         <div class="col-9">
                             <textarea name="page_headline" class="form-control" id="text-input"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Parent Page</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Página Principal</label>
                         <div class="col-9">
                             <select name="parent_id" id="selectPage" class="form-control" required></select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Page Layout</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Layout da página</label>
                         <div class="col-9">
                             <select name="page_layout" id="pagelayout" class="form-control" required>
                                 <option value="default_3x3">default_3x3</option>
@@ -318,20 +318,20 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Visible</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Visível</label>
                         <div class="col-9">
                             <select name="visible" id="visible" class="form-control" required>
-                                <option value="1">Yes</option>
-                                <option value="0">No</option>
+                                <option value="1">Sim</option>
+                                <option value="0">Não</option>
                             </select>
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="example-text-input" class="col-3 col-form-label">Enabled</label>
+                        <label for="example-text-input" class="col-3 col-form-label">Ativar</label>
                         <div class="col-9">
                             <select name="enabled" id="enabled" class="form-control" required>
-                                <option value="1">Yes</option>
-                                <option value="0">No</option>
+                                <option value="1">Sim</option>
+                                <option value="0">Não</option>
                             </select>
                         </div>
                     </div>
@@ -342,7 +342,7 @@
                             <div class="col-3">
                                 <input type="hidden" name="catid">
                                 <input type="hidden" name="object" value="edit">
-                                <button type="submit" class="btn btn-primary ajaxLoad">Edit catalog</button>
+                                <button type="submit" class="btn btn-primary ajaxLoad">Editar catálogo</button>
                             </div>
                         </div>
                     </div>
@@ -358,7 +358,7 @@
                <i class="kt-font-brand flaticon-bag"></i>
                </span>
                     <h3 class="kt-portlet__head-title">
-                  Catalog pages
+                  Páginas de catálogo
                </h3>
                 </div>
                 <div class="kt-portlet__head-toolbar">
@@ -386,7 +386,7 @@
                             <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(110px, 38px, 0px);">
                                 <ul class="kt-nav">
                                     <li class="kt-nav__section kt-nav__section--first">
-                                        <span class="kt-nav__section-text">Actions</span>
+                                        <span class="kt-nav__section-text">Ações</span>
                                     </li>
                                     <li class="kt-nav__item">
                                         <a class="kt-nav__link">
@@ -397,7 +397,7 @@
                                     <li class="kt-nav__item">
                                         <a class="kt-nav__link">
                                             <i class="kt-nav__link-icon flaticon2-plus"></i>
-                                            <span class="kt-nav__link-text">Badge management</span>
+                                            <span class="kt-nav__link-text">Gestão de emblemas</span>
                                         </a>
                                     </li>
                                 </ul>
