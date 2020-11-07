@@ -12,7 +12,7 @@
                                     <div class="card">
                                         <div class="card-header" id="headingOne6">
                                             <div class="card-title collapsed" data-toggle="collapse" data-target="#collapseOne6" aria-expanded="false" aria-controls="collapseOne6">
-                                                <i class="flaticon-interface-7"></i> API Settings
+                                                <i class="flaticon-interface-7"></i> Configurações de API
                                             </div>
                                         </div>
                                         <div id="collapseOne6" class="collapse" aria-labelledby="headingOne6" data-parent="#serverPerm" style="">
@@ -25,14 +25,14 @@
                                                             <label class="col-lg-3 col-form-label">API host:</label>
                                                             <div class="col-lg-6">
                                                                 <input type="text" name="rcon_api_host" value="{{settings.rcon_api_host}}" class="form-control">
-                                                                <span class="form-text text-muted">Please fill in here your ip from your rcon server</span>
+                                                                <span class="form-text text-muted">Por favor, preencha aqui seu ip do seu servidor rcon</span>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
                                                             <label class="col-lg-3 col-form-label">API port:</label>
                                                             <div class="col-lg-6">
                                                                 <input type="text" name="rcon_api_port" value="{{settings.rcon_api_port}}" class="form-control">
-                                                                <span class="form-text text-muted">Please fill in here your ip from your port server</span>
+                                                                <span class="form-text text-muted">Por favor, preencha aqui seu ip do seu servidor de porta</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -46,24 +46,24 @@
                                                             <label class="col-lg-3 col-form-label">API useragent:</label>
                                                             <div class="col-lg-6">
                                                                 <input type="text" name="krews_api_useragent" value="{{settings.krews_api_useragent}}" class="form-control">
-                                                              <span class="form-text text-muted"><a href="https://list.krews.org/" target="_blank">Krews #toplists</a> Regularly scans your hotel for information about your Hotel, we use this information to Score your hotel. Providing your online count is optional but highly recommended.</span>
+                                                              <span class="form-text text-muted"><a href="https://list.krews.org/" target="_blank">Krews #toplists </a> verifica regularmente o seu hotel em busca de informações sobre o seu hotel. Usamos essas informações para avaliar o seu hotel. Fornecer sua contagem online é opcional, mas altamente recomendado.</span>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
                                                             <label class="col-lg-3 col-form-label">Hotel Slug:</label>
                                                             <div class="col-lg-6">
                                                                 <input type="text" name="krews_api_hotel_slug" value="{{settings.krews_api_hotel_slug}}" class="form-control">
-                                                                <span class="form-text text-muted">Fill in your krews hotel-slug, your Hotel Slug is a unique way for your hotel to be identified, this is unique to your hotel and used by our API.</span>
+                                                                <span class="form-text text-muted">Preencha seu Krews hotel-slug, seu Hotel Slug é uma maneira única de seu hotel ser identificado, isso é exclusivo para seu hotel e usado por nossa API.</span>
                                                             </div>
                                                         </div>                                                    
                                                         <div class="form-group row">
-                                                            <label class="col-lg-3 col-form-label">Advanced statistics?:</label>
+                                                            <label class="col-lg-3 col-form-label">Estatísticas avançadas?:</label>
                                                             <div class="col-lg-6">
                                                                   <select name="krews_api_advanced_stats" class="form-control">
-                                                                      <option value="0"  {% if settings.krews_api_advanced_stats == 0 %}selected{% endif %}>No</option>
-                                                                      <option value="1"  {% if settings.krews_api_advanced_stats == 1 %}selected{% endif %}>Yes</option>
+                                                                      <option value="0"  {% if settings.krews_api_advanced_stats == 0 %}selected{% endif %}>Não</option>
+                                                                      <option value="1"  {% if settings.krews_api_advanced_stats == 1 %}selected{% endif %}>Sim</option>
                                                                   </select>
-                                                                  <span class="form-text text-muted">Advanced Statistics send additional data to Krews which may not be used for ranking your hotel but could be displayed within your Profile or a Global Statistics page.</span>
+                                                                  <span class="form-text text-muted">As estatísticas avançadas enviam dados adicionais para a Krews que não podem ser usados para classificar seu hotel, mas podem ser exibidos em seu perfil ou na página de estatísticas globais.</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -75,14 +75,14 @@
                                                             <label class="col-lg-3 col-form-label">Recaptcha publickey:</label>
                                                             <div class="col-lg-6">
                                                                 <input type="text" name="recaptcha_publickey" value="{{settings.recaptcha_publickey}}" class="form-control">
-                                                                <span class="form-text text-muted">Create <a href="https://www.google.com/recaptcha/admin" target="_blank">recaptcha</a> V2 invisible and fil in publickey</span>
+                                                                <span class="form-text text-muted">Create <a href="https://www.google.com/recaptcha/admin" target="_blank">recaptcha</a> V2 invisível e arquivado em chave pública</span>
                                                             </div>
                                                         </div>
                                                         <div class="form-group row">
                                                             <label class="col-lg-3 col-form-label">Recpatcha privatekey:</label>
                                                             <div class="col-lg-6">
                                                                 <input type="text" name="recaptcha_secretkey" value="{{settings.recaptcha_secretkey}}" class="form-control">
-                                                                <span class="form-text text-muted">Fill in here your privatekey</span>
+                                                                <span class="form-text text-muted">Preencha aqui sua chave privada</span>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -102,7 +102,7 @@
                                         <div class="card">
                                             <div class="card-header" id="headingOne5">
                                                 <div class="card-title collapsed" data-toggle="collapse" data-target="#collapseOne9" aria-expanded="false" aria-controls="collapseOne9">
-                                                    <i class="flaticon-interface-7"></i> Currency Settings
+                                                    <i class="flaticon-interface-7"></i> Configurações de moeda
                                                 </div>
                                             </div>
                                             <div id="collapseOne9" class="collapse" aria-labelledby="headingOne5" data-parent="#otherSettings" style="">
@@ -113,7 +113,7 @@
                                                       <i class="kt-font-brand flaticon2-user"></i>
                                                       </span>
                                                             <h3 class="kt-portlet__head-title">
-                                                         Currencys
+                                                         Moedas
                                                       </h3>
                                                         </div>
                                                         <div class="kt-portlet__head-toolbar">
@@ -143,23 +143,23 @@
                                         <div class="card">
                                             <div class="card-header" id="headingOne5">
                                                 <div class="card-title collapsed" data-toggle="collapse" data-target="#collapseOne3" aria-expanded="false" aria-controls="collapseOne3">
-                                                    <i class="flaticon-interface-7"></i> Other settings
+                                                    <i class="flaticon-interface-7"></i> Outros ajustes
                                                 </div>
                                             </div>
                                             <div id="collapseOne3" class="collapse" aria-labelledby="headingOne5" data-parent="#otherSettings" style="">
                                                 <div class="kt-portlet__body">
                                                     <div class="kt-section kt-section--first">
-                                                        <h3 class="kt-section__title">1. Namechange Settings</h3>
+                                                        <h3 class="kt-section__title">1. Configurações de mudança de nome</h3>
                                                         <div class="kt-section__body">
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Currency</label>
+                                                                <label class="col-lg-3 col-form-label">Moeda</label>
                                                                 <div class="col-lg-6">
                                                                     <select name="namechange_currency_type" class="form-control targetCurrency"></select>
-                                                                    <span class="form-text text-muted">Currency for purchase namechange</span>
+                                                                    <span class="form-text text-muted">Moeda para mudança de nome de compra</span>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Price:</label>
+                                                                <label class="col-lg-3 col-form-label">Preço:</label>
                                                                 <div class="col-lg-3">
                                                                     <input type="number" name="namechange_price" value="{{settings.namechange_price}}" class="form-control">
                                                                 </div>
@@ -168,24 +168,24 @@
 
                                                         <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg"></div>
 
-                                                        <h3 class="kt-section__title">2. Settings</h3>
+                                                        <h3 class="kt-section__title">2. Definições</h3>
                                                         <div class="kt-section__body">
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Max regisratrion IP</label>
+                                                                <label class="col-lg-3 col-form-label">IP de registro máximo</label>
                                                                 <div class="col-lg-3">
                                                                     <input type="number" name="registration_max_ip" value="{{settings.registration_max_ip}}" class="form-control">
-                                                                    <span class="form-text text-muted">Max user registration per IP</span>
+                                                                    <span class="form-text text-muted">Registro máximo de usuário por IP</span>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">User of the Week:</label>
+                                                                <label class="col-lg-3 col-form-label">Usuário da Semana:</label>
                                                                 <div class="col-lg-6">
                                                                     <select name="user_of_the_week" class="form-control remoteControl">
                                                                     </select>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Start credits:</label>
+                                                                <label class="col-lg-3 col-form-label">Créditos iniciais:</label>
                                                                 <div class="col-lg-6">
                                                                     <input type="text" class="form-control" name="start_credits" value="{{settings.start_credits}}">
                                                                 </div>
@@ -194,17 +194,17 @@
                                                       
                                                        <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg"></div>
 
-                                                        <h3 class="kt-section__title">2. Draw your badge</h3>
+                                                        <h3 class="kt-section__title">2. Desenhe seu emblema</h3>
                                                         <div class="kt-section__body">
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Badge imaging location</label>
+                                                                <label class="col-lg-3 col-form-label">Localização de imagem do emblema</label>
                                                                 <div class="col-lg-6">
                                                                     <input type="text" name="draw_badge_imaging" value="{{settings.draw_badge_imaging}}" class="form-control">
-                                                                    <span class="form-text text-muted">Path to your album1584</span>
+                                                                    <span class="form-text text-muted">Caminho para o seu álbum1584</span>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Draw badge pay currency:</label>
+                                                                <label class="col-lg-3 col-form-label">Moeda de pagamento do emblema:</label>
                                                                 <div class="col-lg-3">
                                                                     <select name="draw_badge_currency" class="form-control targetCurrency">
                                                                         <option value="{{settings.draw_badge_currency.type}}">{{settings.draw_badge_currency.currency}}</option>
@@ -212,7 +212,7 @@
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Draw badge pay price:</label>
+                                                                <label class="col-lg-3 col-form-label">Desenhe o preço de pagamento do emblema:</label>
                                                                 <div class="col-lg-2">
                                                                     <input type="text" class="form-control" name="draw_badge_price" value="{{settings.draw_badge_price}}">
                                                                 </div>
@@ -234,23 +234,23 @@
                                         <div class="card">
                                             <div class="card-header" id="headingOne5">
                                                 <div class="card-title collapsed" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-                                                    <i class="flaticon-interface-7"></i> VIP Page
+                                                    <i class="flaticon-interface-7"></i> Página VIP
                                                 </div>
                                             </div>
                                             <div id="collapseOne1" class="collapse" aria-labelledby="headingOne5" data-parent="#webPerm" style="">
                                                 <div class="kt-portlet__body">
                                                     <div class="kt-section kt-section--first">
-                                                        <h3 class="kt-section__title">1. Settings</h3>
+                                                        <h3 class="kt-section__title">1. Definições</h3>
                                                         <div class="kt-section__body">
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Choose rank</label>
+                                                                <label class="col-lg-3 col-form-label">Escolha o rank</label>
                                                                 <div class="col-lg-6">
                                                                     <select name="vip_permission_id" class="form-control targetRole"></select>
-                                                                    <span class="form-text text-muted">When player buy VIP which rank get the user</span>
+                                                                    <span class="form-text text-muted">Quando o jogador compra VIP, qual rank leva o usuário</span>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Currency:</label>
+                                                                <label class="col-lg-3 col-form-label">Moeda:</label>
                                                                 <div class="col-lg-6">
                                                                     <select name="vip_currency_type" class="form-control targetCurrency">
                                                                         <option value="{{settings.vip_currency_type.type}}">{{settings.vip_currency_type.currency}}</option>
@@ -258,13 +258,13 @@
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Badges:</label>
+                                                                <label class="col-lg-3 col-form-label">Emblema:</label>
                                                                 <div class="col-lg-5">
                                                                     <input name="vip_badges" value="{% for badges in settings.vip_badges %}{{badges.value}},{% endfor %}">
                                                                 </div>
                                                             </div>    
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Gift items:</label>
+                                                                <label class="col-lg-3 col-form-label">Itens de presente:</label>
                                                                 <div class="col-lg-5">
                                                                     <select name="vip_gift_items[]" class="form-control targetItems" multiple="multiple">
                                                                         {% for items in settings.vip_gift_items %}
@@ -274,14 +274,14 @@
                                                                 </div>
                                                             </div> 
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Days:</label>
+                                                                <label class="col-lg-3 col-form-label">Dias:</label>
                                                                 <div class="col-lg-3">
                                                                     <input type="text" name="vip_membership_days" value="{{settings.vip_membership_days}}" class="form-control">
-                                                                    <span class="form-text text-muted">For unlimited type: lifetime</span>
+                                                                    <span class="form-text text-muted">Para tipo ilimitado: vitalício</span>
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Price:</label>
+                                                                <label class="col-lg-3 col-form-label">Preço:</label>
                                                                 <div class="col-lg-2">
                                                                     <input type="number" name="vip_price" value="{{settings.vip_price}}" class="form-control">
                                                                 </div>
@@ -289,7 +289,7 @@
 
                                                             <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg"></div>
 
-                                                            <h3 class="kt-section__title">2. Content
+                                                            <h3 class="kt-section__title">2. Conteúdo
                                                         <textarea name="club_page_content" id="club_page_content" style="font-size: 6px;">{{settings.club_page_content}}</textarea>
 
                                                     </div>
@@ -309,16 +309,16 @@
                                         <div class="card">
                                             <div class="card-header" id="headingOne9">
                                                 <div class="card-title collapsed" data-toggle="collapse" data-target="#collapseOne8" aria-expanded="false" aria-controls="collapseOne8">
-                                                    <i class="flaticon-interface-7"></i> Referral
+                                                    <i class="flaticon-interface-7"></i> Referência
                                                 </div>
                                             </div>
                                             <div id="collapseOne8" class="collapse" aria-labelledby="headingOne9" data-parent="#webPerma" style="">
                                                 <div class="kt-portlet__body">
                                                     <div class="kt-section kt-section--first">
-                                                        <h3 class="kt-section__title">1. Settings</h3>
+                                                        <h3 class="kt-section__title">1. Definições</h3>
                                                         <div class="kt-section__body">
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Payment points</label>
+                                                                <label class="col-lg-3 col-form-label">Pontos de pagamento</label>
                                                                 <div class="col-lg-6">
                                                                     <select name="referral_points_type" class="form-control targetCurrency">
                                                                         <option value="{{settings.vip_currency_type.type}}">{{settings.vip_currency_type.currency}}</option>
@@ -326,23 +326,23 @@
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Receive points:</label>
+                                                                <label class="col-lg-3 col-form-label">Receba pontos:</label>
                                                                 <div class="col-lg-2">
                                                                     <input type="number" name="referral_points" value="{{settings.referral_points}}" class="form-control">
                                                                 </div>
                                                             </div>
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">Registration days:</label>
+                                                                <label class="col-lg-3 col-form-label">Dias de registro:</label>
                                                                 <div class="col-lg-5">
-                                                                    <input type="number" name="referral_acc_create_days" value="{{settings.referral_acc_create_days}}" class="form-control"> days
-                                                                    <span class="form-text text-muted">How old must the user account to accept Referral.</span>
+                                                                    <input type="number" name="referral_acc_create_days" value="{{settings.referral_acc_create_days}}" class="form-control"> dias
+                                                                    <span class="form-text text-muted">Quantos anos deve a conta do usuário para aceitar a referência.</span>
                                                                 </div>
                                                             </div>                                       
                                                             <div class="form-group row">
-                                                                <label class="col-lg-3 col-form-label">User referral wait time:</label>
+                                                                <label class="col-lg-3 col-form-label">Tempo de espera de referência do usuário:</label>
                                                                 <div class="col-lg-5">
-                                                                    <input type="text" name="referral_waiting_seconds" value="{{settings.referral_waiting_seconds}}" class="form-control"> seconds
-                                                                    <span class="form-text text-muted">How long must the registered user wait for doing a referrel to other person.</span>
+                                                                    <input type="text" name="referral_waiting_seconds" value="{{settings.referral_waiting_seconds}}" class="form-control"> segundos
+                                                                    <span class="form-text text-muted">Quanto tempo deve o usuário registrado esperar para fazer uma referência a outra pessoa.</span>
                                                                 </div>
                                                             </div>
                                                             
@@ -370,7 +370,7 @@
     <div class="modal-dialog modal-sm" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="editCategoryModalLabel">Add Currency</h5>
+                <h5 class="modal-title" id="editCategoryModalLabel">Adicionar Moeda</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -379,23 +379,23 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="categoryName" class="form-control-label">Currency name:</label>
+                        <label for="categoryName" class="form-control-label">Nome da moeda:</label>
                         <input type="text" class="form-control" id="currency_name">
                     </div>
                    <div class="form-group">
-                        <label for="categoryName" class="form-control-label">Currency type:</label>
+                        <label for="categoryName" class="form-control-label">Tipo de moeda:</label>
                         <input type="text" class="form-control" id="currency_type">
                     </div>
                    <div class="form-group">
-                        <label for="categoryName" class="form-control-label">Currency amount:</label>
+                        <label for="categoryName" class="form-control-label">Quatidade da moeda:</label>
                         <input type="number" class="form-control" id="currency_amount">
                     </div>
                 </form>
             </div>
 
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary saveCurrency">Save</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary saveCurrency">Salvar</button>
             </div>
         </div>
     </div>
